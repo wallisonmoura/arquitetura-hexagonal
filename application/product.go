@@ -12,13 +12,13 @@ func init() {
 }
 
 type ProductInterface interface {
-	isValid() (bool, error)
+	IsValid() (bool, error)
 	Enable() error
 	Disable() error
-	getID() string
-	getName() string
-	getStatus() string
-	getPrice() float64
+	GetID() string
+	GetName() string
+	GetStatus() string
+	GetPrice() float64
 }
 
 type ProductServiceInterface interface {
